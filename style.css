@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+section .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section .container header {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .container header nav {
+  width: 100%;
+  height: 8%;
+  margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container header nav .logo {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container header nav .headline {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container header nav .headline span {
+  font-size: 20px;
+  color: #9B98AC;
+}
+
+section .container header nav .headline button {
+  width: 60%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #ffde01;
+  font-weight: 700;
+  font-size: 110%;
+  color: #1f1f1f;
+  border: none;
+}
+
+section .container header nav .headline button:hover {
+  background-color: #221D4F;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+}
+
+section .container header .header_block {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container header .header_block .info {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .container header .header_block .info h1 {
+  font-size: 50px;
+}
+
+section .container header .header_block .info p {
+  font-size: 22px;
+  color: #898a94;
+}
+
+section .container header .header_block .info .start {
+  width: 100%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container header .header_block .info .start button {
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffde01;
+  font-weight: 700;
+  font-size: 110%;
+  color: #1f1f1f;
+}
+
+section .container header .header_block .info .start button:hover {
+  background-color: #221D4F;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+}
+
+section .container header .header_block .info .start .go {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container header .header_block .info .start .go span {
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 18px;
+}
+
+section .container header .header_block .info .start .go span:hover {
+  color: #9B98AC;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+section .container header .header_block .info .start .go span:hover ~ img {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+section .container header .header_block .laptop {
+  height: 100%;
+  background-image: url(./img/Laptop_sloi_web_2.webp);
+  background-position: center;
+  background-size: 160%;
+  background-position-x: 100%;
+  background-position-y: 100%;
+}
+
+section .container #about {
+  width: 100%;
+  height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid red;
+}
+
+section .container #about .about_block {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid red;
+}
+
+section .container #about .about_block .info_1 {
+  height: 50%;
+  border: 1px solid red;
+}
+
+section .container #about .about_block .info_1 h2 {
+  font-size: 30px;
+}
+
+section .container #about .about_block .info_1 h2 span {
+  font-size: 43px;
+}
+
+section .container #about .about_block .info_1 p {
+  font-size: 20px;
+  color: #9B98AC;
+}
+
+section .container #about .about_block button {
+  width: 50%;
+  height: 12%;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffde01;
+  font-weight: 700;
+  font-size: 110%;
+  color: #1f1f1f;
+}
+
+section .container #about .about_block button:hover {
+  background-color: #221D4F;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+}
+
+section .container #about .card_block {
+  height: 80%;
+  border: 1px solid red;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container #about .card_block .card {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  border: 1px solid red;
+}
+
+section .container #about .card_block .card .full_image {
+  width: 90%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid red;
+}
+
+section .container #about .card_block .card .full_image .image {
+  height: 90%;
+  width: 90%;
+  border: 1px solid red;
+  background-color: #ffde01;
+}
+
+section .container #about .card_block .card .full_image .image h2 {
+  font-size: 70px;
+  font-weight: 900;
+  color: rgba(128, 128, 128, 0.384);
+}
+
+section .container #about .card_block .card .full_image .image:hover {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+section .container #about .card_block .card p {
+  font-size: 16px;
+  color: #534E86;
+}
+
+section .container #solve_it {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid red;
+}
+
+section .container #solve_it .title {
+  width: 73%;
+  height: 15%;
+  border: 1px solid red;
+  text-align: center;
+}
+
+section .container #solve_it .title h2 {
+  font-size: 45px;
+}
+
+section .container #solve_it .title p {
+  font-size: 20px;
+  color: #9B98AC;
+}
+
+section .container #solve_it .tasks_block {
+  width: 100%;
+  height: 70%;
+  border: 1px solid red;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+section .container #solve_it .tasks_block .task {
+  border: 1px solid red;
+  margin: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section .container #solve_it .tasks_block .task .theme {
+  width: 100%;
+  height: 30%;
+  border-radius: 15px;
+  background-color: #ffde01;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */
