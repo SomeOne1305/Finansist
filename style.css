@@ -22,31 +22,18 @@ section .container header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
 section .container header nav {
   width: 100%;
   height: 8%;
   margin-top: 3vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 section .container header nav .logo {
@@ -55,12 +42,8 @@ section .container header nav .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 section .container header nav .headline {
@@ -69,11 +52,8 @@ section .container header nav .headline {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 section .container header nav .headline span {
@@ -94,7 +74,6 @@ section .container header nav .headline button {
 
 section .container header nav .headline button:hover {
   background-color: #221D4F;
-  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   color: #fff;
 }
@@ -104,14 +83,9 @@ section .container header .header_block {
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 section .container header .header_block .info {
@@ -119,15 +93,9 @@ section .container header .header_block .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 section .container header .header_block .info h1 {
@@ -145,12 +113,8 @@ section .container header .header_block .info .start {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 section .container header .header_block .info .start button {
@@ -166,7 +130,6 @@ section .container header .header_block .info .start button {
 
 section .container header .header_block .info .start button:hover {
   background-color: #221D4F;
-  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   color: #fff;
 }
@@ -177,12 +140,8 @@ section .container header .header_block .info .start .go {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 section .container header .header_block .info .start .go span {
@@ -194,20 +153,16 @@ section .container header .header_block .info .start .go span {
 
 section .container header .header_block .info .start .go span:hover {
   color: #9B98AC;
-  -webkit-transition: 0.1s ease-out;
   transition: 0.1s ease-out;
 }
 
 section .container header .header_block .info .start .go span:hover ~ img {
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
-  -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
 }
 
 section .container header .header_block .laptop {
   height: 100%;
-  background-image: url(./img/Laptop_sloi_web_2.webp);
+  background-image: url(./img/Laptop.webp);
   background-position: center;
   background-size: 160%;
   background-position-x: 100%;
@@ -219,14 +174,9 @@ section .container #about {
   height: 80vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
   border: 1px solid red;
 }
 
@@ -235,15 +185,9 @@ section .container #about .about_block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
   border: 1px solid red;
 }
 
@@ -288,14 +232,9 @@ section .container #about .card_block {
   border: 1px solid red;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 section .container #about .card_block .card {
@@ -303,16 +242,9 @@ section .container #about .card_block .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   text-align: left;
   border: 1px solid red;
 }
@@ -323,12 +255,8 @@ section .container #about .card_block .card .full_image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border: 1px solid red;
 }
 
@@ -363,16 +291,9 @@ section .container #solve_it {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+   flex-direction: column;
   border: 1px solid red;
 }
 
@@ -398,16 +319,14 @@ section .container #solve_it .tasks_block {
   border: 1px solid red;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 section .container #solve_it .tasks_block .task {
   border: 1px solid red;
   margin: 20px;
   border-radius: 15px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 section .container #solve_it .tasks_block .task .theme {
@@ -418,12 +337,8 @@ section .container #solve_it .tasks_block .task .theme {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
