@@ -205,7 +205,7 @@ nav{
 .communicator{
     width: 360px;
     height: 330px;
-    background-color: #3887ff;
+    background-color: #4589ed;
     background-image: url(./img/pat-6.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,9 +215,113 @@ nav{
     left: 61%;
 }
 
+.writing{
+    width: 100%;
+    height: 100%;
+}
+
 .write{
     width: 100%;
-    height: 86%;
+    height: 82%;
     background-color: #fff;
+    box-shadow: 0 0 10px gray;
     border-radius: 10px;
+}
+
+.head{
+    width: 100%;
+    height: 18%;
+    border-radius: 10px;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.394);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.circle:hover{
+    background-color: rgba(255, 255, 255, 0.567);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+.circle:active{
+    background-color: rgba(255, 255, 255, 0.797);
+}
+
+.window{
+    height: 76%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chatting{
+    width: 100%;
+    height: 68px;
+    padding: 0 16px;
+    margin-top: 136px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.window::-webkit-scrollbar {
+    width: 4px;
+}
+
+.window:hover::-webkit-scrollbar-thumb {
+    display: block;
+}
+
+.window::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.window::-webkit-scrollbar-thumb {
+    background: #92b7ef;
+    border-radius: 3px;
+    display: none;
+}
+
+.window::-webkit-scrollbar-thumb:hover {
+    background: #4589ed;
+}
+
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #3887ff;
+    background-image: url(./img/avatar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.userWords{
+    width: 68%;
+    height: 80%;
+    background-color: #bfbfbf;
+    border-radius: 11px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.keyboard{
+    width: 100%;
+    height: 24%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
 }
